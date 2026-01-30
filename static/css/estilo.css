@@ -1,6 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ada9a9;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Shrikhand', cursive;
+  background-color: #f8f9fa;
+}
+
+.navbar-belloar {
+  background-color: #ecfc32;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.logo-section {
+  display: none;
+}
+
+.logo-principal {
+  display: none;
+}
+
+.logo-info {
+  display: none;
+}
+
+.navbar-text {
+  display: none;
+}
+
+.logo-img {
+  display: none;
+}
+
+.conteudo-principal {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.logo-completa {
+  height: auto;
+  width: auto;
+  max-height: 250px;
+  margin: 0;
+}
+
+.rodape-belloar {
+  background-color: #0b67f2;
+  height: 40px;
+  flex-shrink: 0;
 }
